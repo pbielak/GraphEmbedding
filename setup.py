@@ -7,8 +7,8 @@ with open("README.md", "r") as fh:
 
 
 REQUIRED_PACKAGES = [
-    # 'tensorflow>=1.4.0,<=1.12.0',
-    'gensim==3.6.0',
+    'tensorflow==1.14.0',
+    'gensim>=3.6.0',
     'networkx==2.1',
     'joblib==0.13.0',
     'fastdtw==0.3.2',
@@ -24,7 +24,7 @@ setuptools.setup(
 
     name="ge",
 
-    version="0.0.0",
+    version="0.0.1",
 
     author="Weichen Shen",
 
